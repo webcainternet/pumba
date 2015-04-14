@@ -1,0 +1,66 @@
+
+header #logo a img {
+	width:auto;
+	}
+.camera_wrap{
+	margin-bottom:26px;
+}
+#cboxLoadingGraphic, #cboxLoadingOverlay {
+	display:none !important;
+	}
+div.sort {
+	width:210px;
+}
+div.limit {
+	width:125px;
+	}
+html[lang="de"] div.sort {
+	width:270px;
+}
+html[lang="de"] div.limit {
+	width:145px;
+	}
+html[lang="es"] div.sort {
+	width:250px;
+}
+html[lang="es"] div.limit {
+	width:155px;
+	}
+.product-info .cart-top-padd label{
+	width:70px;
+}
+html[lang="es"] .product-info .cart-top-padd label{
+	width:110px;
+}
+html[lang="de"] .product-info .cart-top-padd label{
+	width:90px;
+}
+#search input {
+	max-width:none;
+	outline:none;
+	}
+.product-info .image {
+	margin-bottom:20px;
+	}
+.product-grid .image a, .box-product .image2 a, .product-list .image a, .box-product .image a {
+   display:block;
+}
+.box.man a img{
+	max-width:100px;
+}
+.header-modules .banner .s-desc span{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+.content-bottom .banner >div >div >a img{
+	position:relative;
+	z-index:-1;
+}
+#page{
+	position:relative;
+	z-index:-2;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.box.man  a{
+		width:100%;
+	}
+}
