@@ -130,6 +130,8 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 				<?php } else { ?>
 				<?php echo $text_logged; ?>
 				<?php } ?>
+
+				<li><a class="<?php if (isset($this->request->get['route']) && $this->request->get['route']=="checkout/checkout") {echo "active";} ?>" href="<?php echo $checkout; ?>"><i class="fa fa-check"></i>Entrar2</a></li>
 			</ul>
 			<?php echo $language; ?>
 			<?php echo $currency; ?>
@@ -224,6 +226,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 							<?php } else { ?>
 							<?php echo $text_logged; ?>
 						<?php } ?>
+						<li><a class="<?php if (isset($this->request->get['route']) && $this->request->get['route']=="checkout/checkout") {echo "active";} ?>" href="<?php echo $checkout; ?>"><i class="fa fa-check"></i>Entrar2</a></li>
 					</ul><div class="clear"></div>
 				</div>
 				<div class="clear"></div>

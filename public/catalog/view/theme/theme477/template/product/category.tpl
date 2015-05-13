@@ -97,7 +97,7 @@
 		<a href="<?php echo $product['href']; ?>"><?php if ($product['thumb']) { ?><img id="img_<?php echo $product['product_id']; ?>" src="<?php echo $product['thumb']; ?>" title="<?php echo $product['name']; ?>" alt="<?php echo $product['name']; ?>" /><?php } else{ ?><img src="catalog/view/theme/theme477/image/no-image.png" alt="" /><?php } ?>
 			<?php if ($product['special']) { ?>
 				<span class="sticker">
-					<span><?php echo $sale; ?></span>
+					<span>Oferta</span>
 				</span>
 			<?php } ?>
 		</a>

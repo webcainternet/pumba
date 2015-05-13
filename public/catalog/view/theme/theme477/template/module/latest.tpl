@@ -29,7 +29,7 @@
 							<div class="product_image image2">
 								<a href="<?php echo $product['href']; ?>"><?php if ($product['thumb']) { ?><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" /><?php } else{ ?><img src="catalog/view/theme/theme477/image/no-image.png" alt="" /><?php } ?>
 								<?php if ($product['special']) { ?>
-									<span class="sticker"><span><?php echo $sale; ?></span></span>
+									<span class="sticker"><span>Oferta</span></span>
 								<?php } ?></a>
 							</div>
 							<div class="inner">
