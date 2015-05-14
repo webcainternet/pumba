@@ -684,9 +684,9 @@ header .toprow .links li:first-child a{
 header .links a.active, 
 header .links a:hover {
 	color:#fff;
-	background-color:#333;
+	background-color:#2E5C8B;
 	background-position:0 bottom;
-	border-top-color:#333;
+	border-top-color:#2E5C8B;
 }
 header .links a.active span, 
 header .links a:hover span{
@@ -703,7 +703,7 @@ header .links a {
 	color:#777;
 	vertical-align:top;
 	border-right:1px solid #dedddd;
-	background: url(../image/button-bg.gif) repeat-x 0 top;
+	/* background: url(../image/button-bg.gif) repeat-x 0 top; */
 }
 header .links a span{
 	display:inline-block;
@@ -1144,10 +1144,10 @@ header #cart .empty {
 	color:#fff;
 	padding:3px 31px 6px;
 	text-align:center;
-	background:#333;
+	background:#2E5C8B;
 }
 #search .button-search:hover {
-	color:#333;
+	color:#2E5C8B;
 	background:#e9e9e9;
 	cursor:pointer;
 }
@@ -1224,7 +1224,7 @@ aside .box .box-heading,
 	line-height:32px;
 	padding:7px 15px 14px 18px;
 	color:#fff;
-	background:#333;
+	background:#2E5C8B;
 	border:none;
 	border-bottom:7px solid #fff100;
 	margin-bottom:10px;
@@ -1521,7 +1521,7 @@ aside .box .box-heading,
 .product-grid .rating,
 .product-list .rating{
 	position:relative;
-	display: block;
+	display: none;
 	line-height:14px;
 }
 .box-category ul {
@@ -2035,7 +2035,7 @@ a.button, a.button-prod {
 	text-decoration: none;
 	cursor: pointer;
 	color:#fff;
-	background:#333;
+	background:#2E5C8B;
 	font-size:19px;
 	line-height:25px;
 	padding:6px 15px 8px 14px;
@@ -3451,7 +3451,7 @@ h1.style-1 {
 }
 .product-info .price .price-tax{
 	color:#000;
-	display:inline-block;
+	display: none;
 	font-weight:normal;
 	margin-right:10px;
 }
@@ -4201,3 +4201,11 @@ table.radio {
 		text-transform: uppercase;		
 	}
 /***/
+
+.tooltip-1 {
+	display: none;
+}
+.right { float: right;}
+.col-sm-6 .right { width: 100%;}
+.left { float: left;}
+.col-sm-6 .left { width: 100%;}

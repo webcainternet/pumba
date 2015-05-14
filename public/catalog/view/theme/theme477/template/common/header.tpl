@@ -131,7 +131,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 				<?php echo $text_logged; ?>
 				<?php } ?>
 
-				<li><a class="<?php if (isset($this->request->get['route']) && $this->request->get['route']=="checkout/checkout") {echo "active";} ?>" href="<?php echo $checkout; ?>"><i class="fa fa-check"></i>Entrar2</a></li>
+				<li><a class="<?php if (isset($this->request->get['route']) && $this->request->get['route']=="checkout/checkout") {echo "active";} ?>" href="<?php echo $checkout; ?>"><i class="fa fa-check"></i>Entrar22</a></li>
 			</ul>
 			<?php echo $language; ?>
 			<?php echo $currency; ?>
@@ -222,11 +222,11 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 						<li><a class="<?php if (isset($this->request->get['route']) && $this->request->get['route']=="checkout/cart") {echo "active";} ?>" href="<?php echo $shopping_cart; ?>"><i class="fa fa-shopping-cart"></i><?php echo $text_shopping_cart; ?></a></li>
 						<li><a class="<?php if (isset($this->request->get['route']) && $this->request->get['route']=="checkout/checkout") {echo "active";} ?>" href="<?php echo $checkout; ?>"><i class="fa fa-check"></i><?php echo $text_checkout; ?></a></li>
 						<?php if (!$logged) { ?>
-							<?php echo $text_welcome; ?>
-							<?php } else { ?>
-							<?php echo $text_logged; ?>
+							<li><a href="http://pumba.com.br/index.php?route=account/login">Entrar</a></li>
+							<li><a href="http://pumba.com.br/index.php?route=account/register">Criar uma conta</a></li>
+						<?php } else { ?>
+							<li><a class="<?php if (isset($this->request->get['route']) && $this->request->get['route']=="checkout/checkout") {echo "active";} ?>" href="index.php?route=account/logout"><i class="fa fa-check"></i>Sair</a></li>
 						<?php } ?>
-						<li><a class="<?php if (isset($this->request->get['route']) && $this->request->get['route']=="checkout/checkout") {echo "active";} ?>" href="<?php echo $checkout; ?>"><i class="fa fa-check"></i>Entrar2</a></li>
 					</ul><div class="clear"></div>
 				</div>
 				<div class="clear"></div>
