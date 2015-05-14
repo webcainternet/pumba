@@ -5,8 +5,15 @@
 <div class="clear"></div>
 </section>
 <!-- Footer -->
+
+	<div class="container" style="margin-bottom: 15px;">
+		<div class="fb-like" data-href="https://facebook.com/lojavirtual.digital" data-width="1100" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+	</div>
+
 <footer>
+
 	<div class="container">
+
 	<div class="row">
 		<div class="col-sm-3">
 			<?php if ($informations) { ?>
