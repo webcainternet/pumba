@@ -15,5 +15,13 @@ $_['text_account']      = 'Minha Conta';
 $_['text_order']        = 'Histórico de Pedidos';
 $_['text_wishlist']     = 'Lista de Desejos';
 $_['text_newsletter']   = 'Boletim Informativo';
-$_['text_powered']      = 'Powered By <a href="http://www.opencart.com">OpenCart</a><br /> %s &copy; %s';
+$_['text_powered']      = 'Desenvolvido por <a href="http://lojavirtual.digital" target="_blank">LojaVirtual.digital</a> - %s &copy; %s';
+
+$_['text_follow']   = 'Siga-nos nas redes';
+$_['text_support']   = 'Atendimento';
+
+
+$_['text_fb'] = 'Facebook';
+$_['text_twi'] = 'Twitter';
+$_['text_rss'] = 'Rss';
 ?>
