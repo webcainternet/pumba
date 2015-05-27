@@ -660,7 +660,8 @@ header .toprow.isStuck {
 header .toprow .menu-bg{
 	position:relative;
 	border-right:1px solid #dedddd;
-	background: url(../image/menu-bg.gif) repeat-x 0 top;
+	/* background: url(../image/menu-bg.gif) repeat-x 0 top; */
+	background-color: #dedddd;
 }
 header .toprow .menu-bg:before{
 	position:absolute;
