@@ -78,6 +78,7 @@
 <input type="text" name="postcode" value="<?php echo $postcode; ?>" class="large-field" />
 <br />
 <br />
+<div style="display: none;">
 <span class="required">*</span> <?php echo $entry_country; ?><br />
 <select name="country_id" class="large-field">
   <option value=""><?php echo $text_select; ?></option>
@@ -91,6 +92,7 @@
 </select>
 <br />
 <br />
+</div>
 <span class="required">*</span> <?php echo $entry_zone; ?><br />
 <select name="zone_id" class="large-field">
 </select>
