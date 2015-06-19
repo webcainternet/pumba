@@ -1274,6 +1274,7 @@ aside .box .box-heading,
 	width:28px;
 	line-height:28px;
 	vertical-align:top;
+	display: none;
 }
 .box-product ul li .quick-view-button {
 	opacity:0;
